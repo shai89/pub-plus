@@ -10,7 +10,6 @@ function LoginForm() {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    // TODO: call backend API
     console.log('Logging in with:', form);
   };
 

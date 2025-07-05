@@ -1,8 +1,6 @@
-// 📁 src/utils/auth.js
-
 // Constants
 const MS_IN_SECOND = 1000;
-const EXPIRY_BUFFER_MINUTES = 1; // Token is considered expired if less than 5 minutes left
+const EXPIRY_BUFFER_MINUTES = 1;
 const EXPIRY_BUFFER_MS = EXPIRY_BUFFER_MINUTES * 60 * MS_IN_SECOND;
 
 /**
